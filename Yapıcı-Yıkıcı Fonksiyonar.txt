@@ -1,0 +1,20 @@
+Yapýcý fonksiyon : bir sýnýf içinde yer alan deðiþkene bunlara baþlangýç deðeri atamamýzý saðlar.
+otomatik kendiliðinden çaðýlýr.
+Yýkýcý fonksiyon : Çaðýrdýðýmýz bu nesne yok edilrken yýkýcý fonk. kullanýlýr.
+
+Ýkiside sýnýfýn adýný alýr !!!!!!!!!!!!!1 Parametre alabilir ama deðer döndürmezz.
+
+class deneme{
+public:
+	int a,b,c;
+
+	deneme(); //yapýcý
+	~deneme(); //yýkýcý
+}test;
+
+deneme::deneme(){
+a=1;b=2;c=3;
+}
+main(){
+cout<<test.a<<test.b<<test.c;
+}
